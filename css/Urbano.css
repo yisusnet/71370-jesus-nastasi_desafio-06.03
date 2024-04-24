@@ -1,0 +1,284 @@
+/* !Font a utilizar */
+
+/* 
+     ?     font-family: "Lugrasimo", cursive;
+   ?      font-weight: 400;
+   ?     font-style: normal;
+  */
+
+/*
+    ?    font-family: "Bebas Neue", sans-serif;
+   ?    font-weight: 400;
+   ?      font-style: normal;
+   */
+/*  !PALETA DE COLORES COOLORS.CO  (https://coolors.co/d6f8d6-7fc6a4-5d737e-55505c-faf33e)
+#d6f8d6 nyanza
+#7fc6a4 cambrige-blue
+#5d737e  paynes-gray
+#55505c  davys-gray
+#faf33e icterine
+ */
+
+:root {
+  --color-nyanza: #d6f8d6;
+  --color-cambrige-blue: #7fc6a4;
+  --color-paynes-gray: #5d737e;
+  --color-davys-gray: #55505c;
+  --color-icterine: #faf33e;
+}
+
+body {
+  background-image: url(/max-van-den-oetelaar-uymG7UVPXpI-unsplash.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  background-image: url(/andrew-amistad-RT0xyvwNB08-unsplash.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  width: 100%;
+  border-radius: 50px;
+  border: 10px solid var(--color-cambrige-blue);
+  max-width: 1050px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  background-color: var(--color-icterine);
+  border-radius: 50px;
+  margin: 10px;
+  padding: 20px;
+  border: var(--color-cambrige-blue) solid 4px;
+  font-family: 'Lugrasimo', cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  border-bottom: 10px solid var(--color-nyanza);
+  border-top: 5px solid var(--color-nyanza);
+  font-size: 50px;
+}
+
+.h1-1 {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 30px;
+}
+
+.fieldset-1 {
+  background-image: url(/daniel-apodaca-WdoQio6HPVA-unsplash.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  border: var(--color-cambrige-blue) solid 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.nombre {
+  color: var(--color-icterine);
+}
+
+.apellido {
+  color: var(--color-icterine);
+}
+
+.documento {
+  color: var(--color-icterine);
+}
+
+.nacionalidad {
+  color: var(--color-icterine);
+}
+
+.textarea-1 {
+  color: var(--color-icterine);
+}
+
+.sexo {
+  color: var(--color-icterine);
+}
+
+input[type='radio'] {
+  transform: scale(3);
+  margin: 20px;
+}
+
+.sexo-3 {
+  display: flex;
+}
+
+.fieldset-2 {
+  background-image: url(/daniele-colucci-8MoRs-DVtas-unsplash.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  border: var(--color-cambrige-blue) solid 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.telefono {
+  color: var(--color-icterine);
+}
+
+.email {
+  color: var(--color-icterine);
+}
+
+input[id='lbl-telefono'] {
+  width: 100%;
+  max-width: 400px;
+  min-height: 30px;
+  background-color: rgba(243, 243, 3, 0.466);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+input[id='lbl-email'] {
+  width: 100%;
+  max-width: 400px;
+  min-height: 30px;
+  background-color: rgba(243, 243, 3, 0.466);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+::placeholder {
+  background-color: #faf33e;
+}
+
+.fieldset-3 {
+  background-color: var(--color-icterine);
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  border: var(--color-cambrige-blue) solid 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.fieldset-4 {
+  background-color: var(--color-icterine);
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  border: var(--color-cambrige-blue) solid 4px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+legend {
+  border: 5px solid var(--color-cambrige-blue);
+  background-color: var(--color-icterine);
+  border-radius: 20px;
+}
+
+fieldset:focus-within legend,
+legend:focus-within {
+  background-color: #8d86237c;
+}
+.input-1 {
+  width: 100%;
+  max-width: 400px;
+  min-height: 30px;
+  background-color: rgba(243, 243, 3, 0.466);
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.input-1:focus {
+  background-color: var(--color-cambrige-blue);
+  color: var(--color-davys-gray);
+  border: solid 4px black;
+}
+
+select {
+  width: 100%;
+  max-width: 400px;
+  min-height: 30px;
+  background-color: rgba(243, 243, 3, 0.466);
+  border-radius: 20px;
+}
+
+select:focus {
+  background-color: var(--color-cambrige-blue);
+  color: var(--color-davys-gray);
+  border: solid 4px black;
+}
+
+label[for='lbl-resena'] {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+hr {
+  border: 10px solid var(--color-icterine);
+  width: 100%;
+  max-width: 500px;
+}
+
+button {
+  background-color: var(--color-davys-gray);
+  border: 10px solid var(--color-cambrige-blue);
+  border-radius: 10px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--color-icterine);
+}
+
+button:focus {
+  background-color: #faf33e;
+  color: black;
+}
+.button-1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+audio {
+  width: 100px;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afiliación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lugrasimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <form method="get">
+        <div class="h1-1">
+          <div class="h1-1"><h1>Vení al Gym! &#128170;</h1></div>
+        </div>
+        <fieldset class="fieldset-1">
+          <legend>
+            <span>&#128587;</span> Datos Personales <span>&#128064;</span>
+          </legend>
+
+          <div class="nombre">
+            <label for="lbl-nombre">Nombre:* </label>
+            <input
+              class="input-1"
+              type="text"
+              id="lbl-nombre"
+              name="Nombre"
+              required
+            />
+          </div>
+
+          <div class="apellido">
+            <label for="lbl-apellido">Apellido:* </label>
+            <input
+              class="input-1"
+              type="text"
+              id="lbl-apellido"
+              name="Apellido"
+              required
+            />
+          </div>
+
+          <div class="documento">
+            <label for="lbl-documento">Documento:* </label>
+            <input
+              class="input-1"
+              type="text"
+              id="lbl-documento"
+              name="Documento"
+              required
+            />
+          </div>
+
+          <div class="nacionalidad">
+            <label for="lbl-nacionalidad">Nacionalidad:* </label>
+            <select name="Nacionalidad" id="lbl-nacionalidad" required>
+              <option value="" hidden>- Seleccionar -</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brasileña">Brasileña</option>
+              <option value="Uruguaya">Uruguaya</option>
+              <option value="Otra">Otra</option>
+            </select>
+          </div>
+
+          <div class="textarea-1">
+            <label for="lbl-resena">Contanos un poco de vos...</label>
+            <textarea
+              class="textarea-2"
+              name="Resena-personal"
+              id="lbl-resena"
+              cols="50"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="sexo">
+            <div class="sexo1">Sexo:*</div>
+
+            <div class="sexo-3">
+              <input
+                id="lbl-femenino"
+                type="radio"
+                name="sexo"
+                value="Femenino"
+                checked
+                required
+              />
+              <label for="lbl-femenino">Femenino</label>
+
+              <input
+                id="lbl-masculino"
+                type="radio"
+                name="sexo"
+                value="Masculino"
+              />
+              <label for="lbl-masculino">Masculino</label>
+
+              <input id="lbl-otro" type="radio" name="sexo" value="Otro" />
+              <label for="lbl-otro">Otro</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <hr />
+
+        <fieldset class="fieldset-2">
+          <legend class="legend-2">
+            <span>&#x1f4f1;</span> Datos de Contacto <span>&#x1f4e7;</span>
+          </legend>
+
+          <div class="telefono">
+            <label for="lbl-telefono">Teléfono: </label>
+            <input
+              class="input-2"
+              type="tel"
+              name="Telefono"
+              id="lbl-telefono"
+              placeholder="Código de área y número"
+            />
+          </div>
+          <div class="email">
+            <label for="lbl-email">Dirección de correo electrónico:* </label>
+            <input
+              class="input-2"
+              type="email"
+              name="Email"
+              id="lbl-email"
+              placeholder="Ej: mail@gmail.com"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <hr />
+
+        <fieldset class="fieldset-3">
+          <legend class="legend-3">
+            <span>&#128692;</span> Actividades <span>&#129336;</span>
+          </legend>
+          <p class="p-actividades1">
+            Por favor, indicá cuáles actividades te interesan.
+          </p>
+
+          <div class="sede-palermo">
+            <p class="p-actividades2">Sede Palermo:</p>
+            <div class="div-checkbox-label">
+              <input
+                type="checkbox"
+                id="lbl-sede-palermo-basquet"
+                name="Sede-Palermo-actividades"
+                value="Basquet"
+              />
+              <label for="lbl-sede-palermo-basquet">Básquet</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-palermo-boxeo"
+                name="Sede-Palermo-actividades"
+                value="Boxeo"
+              />
+              <label for="lbl-sede-palermo-boxeo">Boxeo</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-palermo-futbol"
+                name="Sede-Palermo-actividades"
+                value="futbol"
+              />
+              <label for="lbl-sede-palermo-futbol">Fútbol</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-palermo-tenis"
+                name="Sede-Palermo-actividades"
+                value="Tenis"
+              />
+              <label for="lbl-sede-palermo-tenis">Tenis</label>
+            </div>
+          </div>
+
+          <div class="sede-rosario">
+            <p class="p-actividades2">Sede Rosario:</p>
+            <div class="div-checkbox-label2">
+              <input
+                type="checkbox"
+                id="lbl-sede-rosario-basquet"
+                name="Sede-Rosario-actividades"
+                value="Basquet"
+              />
+              <label for="lbl-sede-rosario-basquet">Básquet</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-rosario-futbol"
+                name="Sede-Rosario-actividades"
+                value="futbol"
+              />
+              <label for="lbl-sede-rosario-futbol">Fútbol</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-rosario-rugby"
+                name="Sede-Rosario-actividades"
+                value="rugby"
+              />
+              <label for="lbl-sede-rosario-rugby">Rugby</label>
+
+              <input
+                type="checkbox"
+                id="lbl-sede-rosario-voley"
+                name="Sede-Rosario-actividades"
+                value="Voley"
+              />
+              <label for="lbl-sede-rosario-voley">Voley</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <hr />
+
+        <fieldset class="fieldset-4">
+          <div class="div-condiciones">
+            <input
+              type="checkbox"
+              id="lbl-condiciones"
+              name="Acepto-las-condiciones"
+              value="Acepto"
+              required
+            />
+            <label for="lbl-condiciones">Acepto las condiciones*</label>
+          </div>
+
+          <div class="div-novedades">
+            <input
+              type="checkbox"
+              id="lvl-novedades"
+              name="Deseo recibir novedades"
+              value="Si"
+              checked
+            />
+            <label for="lvl-novedades">Deseo recibir novedades</label>
+          </div>
+
+          <p class="p-campo-obligatorio">*:campo obligatorio.</p>
+          <div class="button-1">
+            <button type="submit">Iniciar afiliación</button>
+            <button type="reset">Restablecer</button>
+          </div>
+        </fieldset>
+
+        <audio autoplay loop controls>
+          <source src="/gasolina.mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </form>
+    </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('lbl-nombre').focus();
+      });
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
